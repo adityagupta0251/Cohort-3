@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual Studio Code - Code Editing. Redefined</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar-container">
+    <div class="navbar">
+        <div class="top-1">
+            <img src="https://code.visualstudio.com/assets/favicon.ico"
+                 alt="Visual Studio Code Icon"
+                 width="30" height="31" class="contain-2">
+            <h3 class="contain-3">Visual Studio Code</h3>
+        </div>
+
+        <!-- Hamburger Menu for Mobile -->
+        <div class="hamburger" id="hamburger">
+            ☰
+        </div>
+
+        <nav class="nav-1" id="nav-menu">
+            <a href="/docs" class="link">Docs</a>
+            <a href="/updates" class="link">Updates</a>
+            <a href="/blog" class="link">Blog</a>
+            <a href="/api" class="link">API</a>
+            <a href="/extensions" class="link">Extensions</a>
+            <a href="/faq" class="link">FAQ</a>
+            <a href="/github-copilot" class="link">Github Copilot</a>
+            <a href="/mcp" class="link">MCP</a>
+        </nav>
+
+        <div class="nav-2">
+            <div class="search-box">
+                <img src="https://code.visualstudio.com/assets/icons/theme-light.svg" alt="">
+                <img class="search-icon-dark"
+                     src="https://code.visualstudio.com/assets/icons/search-dark.svg"
+                     alt="Search" width="20" height="12">
+                <input type="text" placeholder="Search Docs">
+            </div>
+            <a href="/download" class="download-btn">Download</a>
+        </div>
+    </div>
+</header>
+
+<main>
+    <img src="./adi.jpg" alt="Main banner" width="100%">
+
+</main>
+
+<script>
+    // Mobile Menu Toggle
+    document.getElementById('hamburger').addEventListener('click', function () {
+        document.getElementById('nav-menu').classList.toggle('show');
+    });
+</script>
+
+</body>
+</html>
