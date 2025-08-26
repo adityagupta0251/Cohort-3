@@ -30,7 +30,7 @@ let value = sum(34, 45);
 function canVote (age){
     if(age > 18){
         console.log("You can vote");
-        return true;
+        return true; // Remember to return the value according to control flow
     }else{
         console.log("You cannot vote");
         return false;
